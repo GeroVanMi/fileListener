@@ -1,0 +1,17 @@
+{
+  "name": "file-listener",
+  "version": "1.0.0",
+  "description": "A simple file system listener that detects new files",
+  "main": "listener.js",
+  "repository": "https://github.com/GeroVanMi/fileListener.git",
+  "author": "Gerome Meyer <gerome.meyer@icloud.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "serve": "nodemon"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.2",
+    "pdf2json": "^1.2.3"
+  }
+}
